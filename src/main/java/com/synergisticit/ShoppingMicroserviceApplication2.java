@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ShoppingMicroserviceApplication {
+public class ShoppingMicroserviceApplication2 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShoppingMicroserviceApplication.class, args);
+		SpringApplication.run(ShoppingMicroserviceApplication2.class, args);
 	}
 
 }
